@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# 🍕 Fast React Pizza Co.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple, dynamic pizza menu app built with **pure React.js** — no bundlers, no frameworks, just core web technologies and React's CDN links.
 
-## Available Scripts
+## 🧠 What I Learned
 
-In the project directory, you can run:
+This project was part of my practice using **React from scratch**, without any modern tooling like Vite or CRA. Here's what I learned and applied:
 
-### `npm start`
+- ✅ How to use React and ReactDOM via CDN
+- ✅ How JSX compiles to `React.createElement()`
+- ✅ Pure component-based architecture
+- ✅ One-way data flow using props
+- ✅ Props immutability and component reusability
+- ✅ Conditional rendering (e.g. sold-out items in gray)
+- ✅ Inline styles vs. external CSS
+- ✅ File structure with public images and local arrays
+- ✅ Setting up root components and using `React.StrictMode`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Project Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 📜 A simple pizza menu with a local JavaScript array
+- ⚙️ Each pizza is a reusable component
+- ⚠️ If a pizza is sold out, it’s styled in gray and marked accordingly
+- 🧠 Built entirely without build tools like Webpack or Vite
 
-### `npm test`
+## 🌐 Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Coming soon...
 
-### `npm run build`
+## 📂 Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React 19 (via CDN)
+- HTML & CSS
+- No build tools or frameworks
+- Local state management with React Hooks
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📸 Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Menu example](./screenshot.png) <!-- Add a screenshot if you have one -->
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧠 Lessons Summary
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React is **declarative**: we describe what UI should look like, not how to change it manually.
+- We can use **React without any tooling**, just by importing it from a CDN.
+- `React.createElement` is the core of JSX under the hood.
+- Components should be **modular**, **reusable**, and focused on UI + logic + structure.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📚 Resources
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [React.dev Docs](https://react.dev/learn)
+- [Jonas Schmedtmann’s React Course](https://www.udemy.com/course/the-ultimate-react-course)
 
-## Learn More
+## 🧑‍💻 Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Alberto Zelaya**  
+[LinkedIn](https://www.linkedin.com/in/alberto-zelaya-b2a3ba210/)  
+[GitHub](https://github.com/albertozelaya5)
