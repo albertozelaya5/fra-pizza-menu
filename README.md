@@ -23,20 +23,12 @@ This project was part of my practice using **React from scratch**, without any m
 - ⚠️ If a pizza is sold out, it’s styled in gray and marked accordingly
 - 🧠 Built entirely without build tools like Webpack or Vite
 
-## 🌐 Live Demo
-
-Coming soon...
-
 ## 📂 Technologies Used
 
 - React 19 (via CDN)
 - HTML & CSS
 - No build tools or frameworks
 - Local state management with React Hooks
-
-## 📸 Screenshots
-
-![Menu example](./screenshot.png) <!-- Add a screenshot if you have one -->
 
 ---
 
